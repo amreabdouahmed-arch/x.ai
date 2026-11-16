@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+agent/conversations/
+agent/memory.jsonl
+agent/.webcache.json
+junior-academy/*/__pycache__/

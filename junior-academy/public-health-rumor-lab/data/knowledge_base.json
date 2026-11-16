@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "name": "مختبر الشائعات الصحية",
+    "version": "2026.09.21",
+    "updated_at": "2026-09-21",
+    "program": "Junior Academy",
+    "disclaimer_ar": "أداة تعليمية لكشف أنماط الشائعات. ليست تشخيصاً طبياً وليست بديلاً عن وزارة الصحة أو منظمة الصحة العالمية.",
+    "method_ar": "مطابقة متعددة الإشارات مع قاعدة معرفة موثّقة + أنماط ضرر، من دون وكيل ذكاء اصطناعي مستقل."
+  },
+  "entries": [
+    {
+      "id": "vaccines-prevent-disease",
+      "kind": "fact",
+      "harm": "none",
+      "title_ar": "اللقاحات تقلل خطر أمراض معدية كثيرة",
+      "claim_patterns_ar": ["اللقاحات تقلل خطر الأمراض المعدية", "اللقاحات تقلل خطر أمراض معدية كثيرة", "التطعيم يحمي من العدوى"],
+      "claim_patterns_en": ["vaccines reduce infectious disease risk", "vaccination protects from infection"],
+      "keywords": ["لقاح", "تطعيم", "عدوى", "vaccine", "vaccination", "infection"],
+      "verdict_ar": "معلومة مدعومة: اللقاحات تقلل خطر أمراض معدية وفق الأدلة والإرشادات.",
+      "lesson_ar": "اسأل عن اللقاح والجدول المناسبين من جهة صحية رسمية.",
+      "sources": [
+        {"label": "WHO — Vaccines and immunization", "url": "https://www.who.int/health-topics/vaccines-and-immunization"}
+      ]
+    },
+    {
+      "id": "detox-miracle",
+      "kind": "rumor",
+      "harm": "moderate",
+      "title_ar": "الديتوكس ليس علاجًا شاملًا",
+      "claim_patterns_ar": ["الديتوكس يعالج كل الأمراض", "الديتوكس يخرج السموم ويشفي"],
+      "claim_patterns_en": ["detox cures all diseases", "detox removes all toxins"],
+      "keywords": ["ديتوكس", "سموم", "أمراض", "detox", "toxins", "diseases"],
+      "verdict_ar": "ادعاء مضلل؛ لا يوجد علاج واحد يخرج كل السموم أو يعالج كل الأمراض.",
+      "lesson_ar": "اسأل عن الدليل المحدد بدل الوعود العلاجية المطلقة.",
+      "sources": [
+        {"label": "NCCIH — Detoxes and Cleanses", "url": "https://www.nccih.nih.gov/health/detoxes-and-cleanses"}
+      ]
+    },
+    {
+      "id": "antibiotics-cold-fact",
+      "kind": "fact",
+      "harm": "none",
+      "title_ar": "المضاد الحيوي لا يفيد نزلات البرد الفيروسية",
+      "claim_patterns_ar": ["المضاد الحيوي لا يفيد نزلات البرد", "المضاد الحيوي لا يعالج البرد"],
+      "claim_patterns_en": ["antibiotics do not help colds", "antibiotics do not treat viral colds"],
+      "keywords": ["مضاد", "برد", "فيروس", "antibiotics", "cold", "viral"],
+      "verdict_ar": "معلومة مدعومة: نزلات البرد الفيروسية لا تعالجها المضادات الحيوية.",
+      "lesson_ar": "استخدم المضاد فقط بوصفة ولسبب بكتيري يحدده الطبيب.",
+      "sources": [
+        {"label": "CDC — Antibiotic Use", "url": "https://www.cdc.gov/antibiotic-use/about/index.html"}
+      ]
+    },
+    {
+      "id": "safe-medication-review",
+      "kind": "fact",
+      "harm": "high",
+      "title_ar": "لا توقف الدواء دون مراجعة مختص",
+      "claim_patterns_ar": ["لا توقف الدواء دون استشارة الطبيب", "لا تغير العلاج دون الطبيب"],
+      "claim_patterns_en": ["do not stop medicine without medical advice"],
+      "keywords": ["توقف", "دواء", "استشارة", "stop", "medicine", "advice"],
+      "verdict_ar": "معلومة سلامة مدعومة: لا توقف أو تغير دواءً موصوفًا دون مراجعة مختص.",
+      "lesson_ar": "تحسن الأعراض لا يعني أن تغيير العلاج آمن.",
+      "sources": [
+        {"label": "NHS — Medicines", "url": "https://www.nhs.uk/conditions/medicines-information/"}
+      ]
+    },
+    {
+      "id": "smoking-protection",
+      "kind": "rumor",
+      "harm": "high",
+      "title_ar": "التدخين لا يحمي من العدوى",
+      "claim_patterns_ar": [
+        "التدخين يحمي من العدوى",
+        "السجائر تمنع الفيروس",
+        "التدخين يقوي المناعة"
+      ],
+      "claim_patterns_en": ["smoking protects from infection", "smoking prevents viruses"],
+      "keywords": ["تدخين", "سجائر", "عدوى", "فيروس", "smoking", "infection"],
+      "verdict_ar": "معلومة مضللة وخطرة. التدخين لا يحمي من العدوى ويضر الصحة.",
+      "lesson_ar": "لا تستخدم التدخين أو النيكوتين للوقاية من المرض.",
+      "sources": [
+        {"label": "WHO — Tobacco", "url": "https://www.who.int/health-topics/tobacco"}
+      ]
+    },
+    {
+      "id": "water-cancer-cure",
+      "kind": "rumor",
+      "harm": "high",
+      "title_ar": "الماء وحده لا يعالج السرطان",
+      "claim_patterns_ar": [
+        "الماء يعالج السرطان",
+        "شرب الماء يشفي السرطان",
+        "الماء علاج للسرطان"
+      ],
+      "claim_patterns_en": ["water cures cancer", "water treats cancer"],
+      "keywords": ["ماء", "سرطان", "water", "cancer", "cure"],
+      "verdict_ar": "معلومة مضللة. لا يوجد دليل أن الماء وحده يعالج السرطان.",
+      "lesson_ar": "علاج السرطان يحدده فريق طبي حسب النوع والمرحلة.",
+      "sources": [
+        {"label": "NCI — Cancer Treatment", "url": "https://www.cancer.gov/about-cancer/treatment"}
+      ]
+    },
+    {
+      "id": "water-kidney-failure",
+      "kind": "rumor",
+      "harm": "high",
+      "title_ar": "شرب الماء وحده لا يعالج الفشل الكلوي",
+      "claim_patterns_ar": [
+        "شرب الماء يعالج الفشل الكلوي",
+        "الماء يشفي الفشل الكلوي"
+      ],
+      "claim_patterns_en": ["water cures kidney failure"],
+      "keywords": ["ماء", "كلى", "فشل", "water", "kidney", "failure"],
+      "verdict_ar": "معلومة مضللة وخطرة. الفشل الكلوي يحتاج تقييمًا وعلاجًا طبيًا.",
+      "lesson_ar": "لا تؤخر رعاية الكلى باتباع علاج منزلي غير مثبت.",
+      "sources": [
+        {"label": "NIDDK — Kidney Failure", "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure"}
+      ]
+    },
+    {
+      "id": "bleach-ingest",
+      "kind": "rumor",
+      "harm": "high",
+      "title_ar": "شرب أو حقن المطهرات لا يعالج الأمراض",
+      "claim_patterns_ar": [
+        "اشرب كلور",
+        "اشرب مطهر",
+        "حقن كلور",
+        "الكلور يعالج كورونا",
+        "الكلور يقتل الفيروس داخل الجسم",
+        "الديتول يشفي",
+        "اشرب بيتادين"
+      ],
+      "claim_patterns_en": [
+        "drink bleach",
+        "inject bleach",
+        "bleach cures covid",
+        "disinfectant inside the body"
+      ],
+      "keywords": ["كلور", "مطهر", "بليتش", "ديتول", "bleach", "disinfectant", "methanol", "methanol"],
+      "verdict_ar": "شائعة خطرة. إدخال الكلور أو المطهرات إلى الجسم لا يحمي من كوفيد-19 وقد يسبب تسمماً وضرراً للأعضاء.",
+      "lesson_ar": "المطهرات لأسطح المنزل فقط، وبعيداً عن متناول الأطفال. العلاج لا يُؤخذ من منشورات.",
+      "sources": [
+        {
+          "label": "WHO Mythbusters — bleach/disinfectant",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        }
+      ]
+    },
+    {
+      "id": "antibiotics-virus",
+      "kind": "rumor",
+      "harm": "moderate",
+      "title_ar": "المضاد الحيوي لا يعالج الفيروسات",
+      "claim_patterns_ar": [
+        "المضاد الحيوي يعالج كورونا",
+        "المضاد الحيوي يمنع فيروس",
+        "خد مضاد حيوي للبرد",
+        "البرد يحتاج مضاد حيوي",
+        "المضاد الحيوي يقتل الفيروسات",
+        "المضاد الحيوي يعالج الفيروسات"
+      ],
+      "claim_patterns_en": [
+        "antibiotics treat covid",
+        "antibiotics prevent virus",
+        "antibiotics for a cold",
+        "antibiotics kill viruses"
+      ],
+      "keywords": ["مضاد حيوي", "مضادات حيوية", "antibiotic", "antibiotics", "فيروس", "كوفيد", "برد"],
+      "verdict_ar": "شائعة شائعة جداً. المضادات الحيوية تعمل ضد البكتيريا لا الفيروسات. كوفيد-19 مرض فيروسي. الطبيب فقط قد يصف مضاداً إذا ظهرت مضاعفة بكتيرية.",
+      "lesson_ar": "استخدام المضاد من غير داعٍ يغذي مقاومة المضادات الحيوية.",
+      "sources": [
+        {
+          "label": "WHO Mythbusters — antibiotics",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        }
+      ]
+    },
+    {
+      "id": "vaccines-autism",
+      "kind": "rumor",
+      "harm": "high",
+      "title_ar": "لا علاقة علمية بين اللقاحات والتوحد",
+      "claim_patterns_ar": [
+        "اللقاح يسبب التوحد",
+        "تطعيم الحصبة توحد",
+        "MMR توحد",
+        "التطعيمات تخلي الطفل توحدي"
+      ],
+      "claim_patterns_en": [
+        "vaccines cause autism",
+        "mmr causes autism",
+        "vaccine autism link"
+      ],
+      "keywords": ["لقاح", "تطعيم", "توحد", "autism", "mmr", "vaccine"],
+      "verdict_ar": "شائعة ثبت خطؤها. لا دليل علمي يربط لقاح MMR أو اللقاحات عموماً بالتوحد. الدراسة الأصلية لعام 1998 كانت معيوبة وسُحبت.",
+      "lesson_ar": "اسأل مقدم الخدمة الصحية، وراجع مواقع شبكة سلامة اللقاحات المعتمدة من المنظمة.",
+      "sources": [
+        {
+          "label": "WHO — Embrace the facts about vaccines, not the myths",
+          "url": "https://www.who.int/news-room/commentaries/detail/embrace-the-facts-about-vaccines-not-the-myths"
+        }
+      ]
+    },
+    {
+      "id": "garlic-cure",
+      "kind": "rumor",
+      "harm": "moderate",
+      "title_ar": "الثوم غذاء وليس علاجاً لكوفيد-19",
+      "claim_patterns_ar": [
+        "الثوم يعالج كورونا",
+        "الثوم يمنع كوفيد",
+        "كل ثوم عشان الفيروس"
+      ],
+      "claim_patterns_en": [
+        "garlic cures covid",
+        "garlic prevents coronavirus"
+      ],
+      "keywords": ["ثوم", "garlic", "كوفيد", "كورونا"],
+      "verdict_ar": "شائعة. الثوم طعام صحي محتمل، لكنه لا يقي أو يعالج كوفيد-19.",
+      "lesson_ar": "الغذاء المفيد لا يساوي دواءً مثبتاً. فرّق بين النصيحة الغذائية والادعاء العلاجي.",
+      "sources": [
+        {
+          "label": "WHO Mythbusters",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        }
+      ]
+    },
+    {
+      "id": "5g-virus",
+      "kind": "rumor",
+      "harm": "moderate",
+      "title_ar": "شبكات الجيل الخامس لا تنشر الفيروس",
+      "claim_patterns_ar": [
+        "الخمسة جي بتنشر كورونا",
+        "أبراج 5G فيروس",
+        "الواي فاي بيسبب كوفيد"
+      ],
+      "claim_patterns_en": [
+        "5g spreads covid",
+        "5g causes coronavirus",
+        "wifi spreads virus"
+      ],
+      "keywords": ["5g", "خمسة جي", "أبراج", "واي فاي", "فيروس"],
+      "verdict_ar": "شائعة. الفيروسات لا تنتقل عبر موجات الراديو أو شبكات الهاتف.",
+      "lesson_ar": "آلية العدوى البيولوجية (رذاذ/ملامسة) شيء، والإشعاع غير المؤين للشبكات شيء آخر.",
+      "sources": [
+        {
+          "label": "WHO Mythbusters",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        }
+      ]
+    },
+    {
+      "id": "hand-hygiene",
+      "kind": "fact",
+      "harm": "none",
+      "title_ar": "غسل اليدين يقلل انتقال كثير من العدوى",
+      "claim_patterns_ar": [
+        "غسل اليدين مهم",
+        "اغسل إيدك بالصابون",
+        "نظافة اليدين تقي من العدوى"
+      ],
+      "claim_patterns_en": [
+        "handwashing prevents infection",
+        "wash hands with soap",
+        "hand hygiene"
+      ],
+      "keywords": ["غسل", "يدين", "صابون", "handwashing", "hygiene", "عدوى"],
+      "verdict_ar": "معلومة مدعومة في الصحة العامة: نظافة اليدين إجراء أساسي للوقاية، وفق إرشادات مكافحة العدوى.",
+      "lesson_ar": "الحقيقة أيضاً تحتاج مصدراً. هذه مدعومة من إرشادات المنظمة لنظافة اليدين.",
+      "sources": [
+        {
+          "label": "WHO — Hand hygiene",
+          "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control/hand-hygiene"
+        }
+      ]
+    },
+    {
+      "id": "ors-diarrhea",
+      "kind": "fact",
+      "harm": "none",
+      "title_ar": "محلول الجفاف الفموي علاج أساسي للإسهال",
+      "claim_patterns_ar": [
+        "محلول الجفاف للإسهال",
+        "محلول الإماهة يساعد في الجفاف",
+        "ORS يعوض السوائل",
+        "الإسهال خطره الجفاف"
+      ],
+      "claim_patterns_en": [
+        "ors for diarrhea",
+        "oral rehydration solution",
+        "diarrhea dehydration"
+      ],
+      "keywords": ["إسهال", "جفاف", "محلول", "ors", "diarrhea", "rehydration"],
+      "verdict_ar": "معلومة مدعومة: تعويض السوائل والأملاح عبر الفم حجر أساس لعلاج الإسهال والوقاية من الجفاف.",
+      "lesson_ar": "الشائعة غالباً تعد بالعلاج السحري؛ الحقيقة هنا عملية ومثبتة: تعويض الماء والأملاح.",
+      "sources": [
+        {
+          "label": "WHO fact sheet — Diarrhoeal disease",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "miracle-cure",
+      "harm": "moderate",
+      "ar": ["علاج سحري", "شفا فوري", "يقضي على كل الأمراض", "مئة بالمئة شفاء", "الأطباء بيخفوا"],
+      "en": ["miracle cure", "instant heal", "cures all diseases", "doctors don't want you to know", "100% cure"]
+    },
+    {
+      "id": "ingest-poison",
+      "harm": "high",
+      "ar": ["اشرب كلور", "اشرب كحول صناعي", "حقن مطهر"],
+      "en": ["drink bleach", "drink methanol", "inject disinfectant"]
+    }
+  ]
+}

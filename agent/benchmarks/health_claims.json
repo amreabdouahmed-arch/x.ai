@@ -1,0 +1,22 @@
+[
+  {"id":"b01","claim":"اشرب كلور لعلاج كورونا","label":"rumor","risk":"high"},
+  {"id":"b02","claim":"المضاد الحيوي يعالج الفيروسات","label":"rumor","risk":"moderate"},
+  {"id":"b03","claim":"اللقاح يسبب التوحد","label":"rumor","risk":"high"},
+  {"id":"b04","claim":"الديتوكس يعالج كل الأمراض","label":"rumor","risk":"moderate"},
+  {"id":"b05","claim":"الثوم يمنع كل الأمراض المعدية","label":"unverified","risk":"moderate"},
+  {"id":"b06","claim":"الكمامة تمنع كل الفيروسات 100%","label":"unverified","risk":"moderate"},
+  {"id":"b07","claim":"الجرعات الكبيرة من فيتامين د آمنة للجميع","label":"unverified","risk":"high"},
+  {"id":"b08","claim":"إيقاف دواء الضغط فورًا عند التحسن آمن","label":"unsafe_advice","risk":"high"},
+  {"id":"b09","claim":"مش صح إن الكلور مش بيسبب ضرر لو اتشرب","label":"unverified","risk":"high"},
+  {"id":"b10","claim":"غسل اليدين بالصابون يقلل انتقال العدوى","label":"supported","risk":"low"},
+  {"id":"b11","claim":"محلول الإماهة يساعد في الجفاف الناتج عن الإسهال","label":"supported","risk":"low"},
+  {"id":"b12","claim":"التدخين يحمي من العدوى","label":"rumor","risk":"high"},
+  {"id":"b13","claim":"الماء يعالج السرطان وحده","label":"rumor","risk":"high"},
+  {"id":"b14","claim":"كل منتج طبيعي آمن للحامل","label":"unverified","risk":"high"},
+  {"id":"b15","claim":"السكر يسبب كل أنواع السرطان","label":"unverified","risk":"moderate"},
+  {"id":"b16","claim":"المضاد الحيوي لا يفيد نزلات البرد الفيروسية","label":"supported","risk":"low"},
+  {"id":"b17","claim":"لا توقف الدواء دون استشارة الطبيب","label":"supported","risk":"high"},
+  {"id":"b18","claim":"اللقاحات تقلل خطر أمراض معدية كثيرة","label":"supported","risk":"low"},
+  {"id":"b19","claim":"شرب الماء يعالج الفشل الكلوي","label":"rumor","risk":"high"},
+  {"id":"b20","claim":"القهوة تعالج السرطان","label":"unverified","risk":"high"}
+]
